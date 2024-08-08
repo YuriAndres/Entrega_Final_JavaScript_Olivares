@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas Pádel - Inicio</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Atlas Pádel • Tienda de Palas de Pádel</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <section id="productos">
+            <h2>Catálogo</h2>
+            
+            <div class="categoria">
+                <h3>Palas Babolat</h3>
+                <div class="producto-lista" id="babolat">
+                </div>
+            </div>
+
+            <div class="categoria">
+                <h3>Palas Nox</h3>
+                <div class="producto-lista" id="nox">
+                </div>
+            </div>
+
+            <div class="categoria">
+                <h3>Palas Bullpadel</h3>
+                <div class="producto-lista" id="bullpadel">
+                </div>
+            </div>
+
+            <div class="categoria">
+                <h3>Otras Palas</h3>
+                <div class="producto-lista" id="otras">
+                </div>
+            </div>
+        </section>
+        <section id="carrito">
+            <h2>Carrito de Compras</h2>
+            <ul id="carrito-lista">
+            </ul>
+            <div class="total">
+                <p>Total: $<span id="total">0</span></p>
+                <button id="comprar-btn">Comprar</button>
+            </div>
+            <div id="opciones-pago" class="hidden">
+                <h3>Opciones de Pago</h3>
+                <label>
+                    <input type="radio" name="pago" value="tarjeta" checked> Tarjeta de Crédito/Débito
+                </label>
+                <label>
+                    <input type="radio" name="pago" value="transferencia"> Transferencia Bancaria
+                </label>
+            </div>
+        </section>
+        <button id="descuento-btn">Presiona aquí para recibir descuentos</button>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h4>Sobre Nosotros</h4>
+                <p>Somos una tienda especializada en la venta de palas de pádel de las mejores marcas. Ofrecemos productos de alta calidad para jugadores de todos los niveles.<br><br>Distribuimos en todo el territorio Argentino y Chileno</p>
+            </div>
+            <div class="footer-section contact">
+                <h4>Contacto</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Los Militares 2650, Piso 905, Las Condes, Santiago, Chile</p>
+                <p><i class="fas fa-phone"></i> +569 5653 1001</p>
+                <p><i class="fas fa-envelope"></i> yaolivares@uc.cl</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Atlas Pádel. Tienda de Palas de Pádel. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
